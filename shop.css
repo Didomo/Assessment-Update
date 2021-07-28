@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    background-color: whitesmoke;
+    padding: 0;
+    box-sizing: border-box;
+}
+h3 {
+    text-align: center;
+    text-transform: capitalize;
+}
+#items {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.product {
+    box-shadow: 0px 1px 1px 0px beige;
+    margin: 1em;
+    padding: 0.3em;
+}
+.product img {
+    height: 10em;
+    width: 100%;
+}
+.name{
+    background: bisque;
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+}
+.price {
+    font-weight: bold;
+    font-size: 10pt;
+    text-align: center;
+}
+nav{
+    background: rgb(235, 195, 223);
+    height: 50px;
+    width: 100rem;
+    position: relative;
+    position: static;
+    display: block;
+}
+label {
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 5px;
+    right: -5%;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: rgb(235, 195, 223);
+}
+a{ 
+    margin: auto;
+    width: 3%;
+    position: relative;
+    top: 10px;
+    left: 50%;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: rgb(235, 195, 223);
+  }
+  
+
+h3{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.items {
+    
+    max-width: 200px;
+    margin: 10px;
+    text-align: center;
+    font-family: arial;
+    display: inline-block;
+    padding: auto;
+}
+  button {
+    border: none;
+    outline: 0;
+    padding: 10px;
+    color: black;
+    background-color: rgb(253, 228, 174);
+    text-align: center;
+    cursor: pointer;
+    width: 85%;
+    font-size: 15px;
+}
+  
+
+/* carousel */
+* {
+    box-sizing: content-box;
+}
+.slideshow-container{
+    margin: 0;
+ 
+}
+.mySlides {
+    display: none
+}
+img {
+    vertical-align: middle;
+    height: 340px;
+ 
+}
+.slideshow-container {
+  max-width: 80%;
+  position: relative;
+  margin: auto;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+ 
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+ 
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+ 
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+ 
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
